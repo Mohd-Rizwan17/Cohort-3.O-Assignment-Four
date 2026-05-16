@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="intro-card">
+        <nav class="top-nav"><img src="ring.png" alt="" />About Me</nav>
+
+        <div class="vertical-nav">
+          <span>Clients</span>
+          <span>Research</span>
+          <span>Portfolio</span>
+          <span>Podcast</span>
+        </div>
+
+        <div class="profile-jon">
+          <div class="image-circle">
+            <img src="Jonimage.png" alt="Jon image not found" />
+          </div>
+          <h1>
+            <span>Im,</span> <br />
+            Jon <br />
+            Daniel
+          </h1>
+        </div>
+
+        <div class="profile-bottom">
+          <p class="email">
+            inquiry@jondaniel.design <i class="fa-regular fa-envelope-open"></i>
+          </p>
+          <!-- <div class="circle-badge">
+            <span>MY DESIGN PORTFOLIO 2023</span>
+          </div> -->
+          <div class="circle-badge">
+            <svg viewBox="0 0 100 100" class="badge-svg">
+              <defs>
+                <path
+                  id="circlePath"
+                  d="M 50, 50 m -25, 0 a 25,25 0 1, 1 50, 0 a 25,25 0 1, 1 -50, 0"
+                />
+              </defs>
+
+              <circle
+                cx="50"
+                cy="50"
+                r="48"
+                fill="none"
+                stroke="#222"
+                stroke-width="0.7"
+                opacity="0.3"
+              />
+
+              <circle cx="50" cy="50" r="38" fill="#000" />
+
+              <text
+                fill="#fff"
+                font-size="5.5"
+                font-weight="bold"
+                letter-spacing="1.2"
+              >
+                <textPath href="#circlePath" startOffset="0%">
+                  MY DESIGN PORTFOLIO • 2023 •
+                </textPath>
+              </text>
+
+              <circle cx="50" cy="50" r="5" fill="#fff" />
+            </svg>
+          </div>
+        </div>
+      </aside>
+
+      <main class="content">
+        <header class="main-header">
+          <h1>Portfolio</h1>
+          <span class="tick header-tick">⌝</span>
+        </header>
+
+        <div class="layout">
+          <div class="video-card">
+            <span class="tick">⌝</span>
+            <img src="flamingo.jpg" alt="Project Preview" />
+            <div class="play-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="end-card">
+            <div class="end-top">
+              <span class="tick">⌝</span>
+              <h2>251</h2>
+              <p>Projects</p>
+            </div>
+
+            <div class="end-bottom">
+              <span class="tick dark-tick">⌝</span>
+              <h2>156</h2>
+              <p>Awards</p>
+            </div>
+          </div>
+
+          <div class="client-card">
+            <span class="tick dark-tick">⌝</span>
+            <div class="apple-logo">
+              <img src="applelogo.png" alt="Apple Logo" />
+            </div>
+            <p>Clients</p>
+          </div>
+
+          <div class="award-card">
+            <div class="awards-left">
+              <img src="ball-gradiant.png" alt="ball-gradient" />
+            </div>
+            <div class="awards-right">
+              <span class="tick">⌝</span>
+              <h2>172</h2>
+              <p>Global Design Awards.</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
